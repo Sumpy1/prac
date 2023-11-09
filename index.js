@@ -49,7 +49,4 @@ app.get("/", (req, res) => {
     return res.redirect('index.html');
 });
 
-const port = 3000;
-app.listen(port, () => {
-    console.log("Listening on port " + port);
-});
+
